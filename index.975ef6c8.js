@@ -27090,14 +27090,14 @@ var _stylesCss = require("./styles.css");
     name: "Yoonus Arshaan",
     title: "Web Designer & Problem Solver",
     email: "yoonusarshaan@gmail.com",
-    gitHub: "microsoft",
-    instagram: "https://www.instagram.com/yoonus_ash?igsh=czNiZHN1YWhjeWht&utm_source=qr",
-    linkedIn: "https://www.linkedin.com/in/yoonus-arshaan-3193a8292/",
+    gitHub: "yoonusash",
+    instagram: "yoonus_ash?igsh=czNiZHN1YWhjeWht&utm_source=qr",
+    linkedIn: "yoonus-arshaan-3193a8292/",
     medium: "",
-    twitter: "https://x.com/yoonusarshaan?s=11",
-    youTube: "https://youtube.com/@Yonot999?si=6BO6Y3tZE6N9i1BE"
+    twitter: "yoonusarshaan?s=11",
+    youTube: "@Yonot999?si=6BO6Y3tZE6N9i1BE"
 };
-const primaryColor = "#D0F05C";
+const primaryColor = "#2596BE";
 const secondaryColor = "#D2F1E4";
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28679,7 +28679,8 @@ const Home = ({ name , title  })=>{
                     src: (0, _downArrowSvgDefault.default),
                     style: {
                         height: "3rem",
-                        width: "3rem"
+                        width: "3rem",
+                        animation: "bounce 1s ease-in-out infinite alternate"
                     },
                     alt: imageAltText
                 }, void 0, false, {
@@ -28813,7 +28814,8 @@ const Portfolio = ()=>{
                             style: {
                                 height: "90%",
                                 width: "100%",
-                                objectFit: "cover"
+                                objectFit: "cover",
+                                animation: "1s ease-out 0s 1 slideInLeft"
                             },
                             alt: imageAltText
                         }, void 0, false, {
@@ -28842,12 +28844,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28855,18 +28857,18 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 73,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 71,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, undefined)
                 ]
