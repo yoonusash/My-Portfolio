@@ -27,15 +27,15 @@ const siteProps = {
   name: "Yoonus Arshaan",
   title: "Web Designer & Problem Solver",
   email: "yoonusarshaan@gmail.com",
-  gitHub: "microsoft",
-  instagram: "https://www.instagram.com/yoonus_ash?igsh=czNiZHN1YWhjeWht&utm_source=qr",
-  linkedIn: "https://www.linkedin.com/in/yoonus-arshaan-3193a8292/",
+  gitHub: "yoonusash",
+  instagram: "yoonus_ash?igsh=czNiZHN1YWhjeWht&utm_source=qr",
+  linkedIn: "yoonus-arshaan-3193a8292/",
   medium: "",
-  twitter: "https://x.com/yoonusarshaan?s=11",
-  youTube: "https://youtube.com/@Yonot999?si=6BO6Y3tZE6N9i1BE",
+  twitter: "yoonusarshaan?s=11",
+  youTube: "@Yonot999?si=6BO6Y3tZE6N9i1BE",
 };
 
-const primaryColor = "#D0F05C";
+const primaryColor = "#2596BE";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
